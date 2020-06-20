@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background: #000 url('./assets/z8.jpg') no-repeat ;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* Itens ordenados por coluna, um abaixo do outro, alinhados ao centro */
+.container {
+  margin: 80px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{ 
+  width: 100%;
+  background: #fff;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 30px;
+
+}
+
+.principal{ 
+  /* background: #fff; */
+  padding: 130px;
+  width: 1355px;
+  background-image: url('https://i.ibb.co/ggVwjPL/y-Road-2.png');
+  
+
+}
+.backHeader{
+   background: rgb(32, 32, 29);
+   padding: 20px;
+   width: 1355px;
+   position: absolute;
+   top: 0px;
+
+}
+
+.divServico{
+  background: rgb(32, 32, 29);
+  padding: 20px;
+  width: 1355px;
+  position: relative;
+  top: 0px;
+
+
+}
+.cardSessions{
+  background-image: url('https://i.ibb.co/nLNFJGg/y-Road-5.png');
+  padding: 50px;
+  width: 1355px;
+  position: relative;
+  
+}
+.cardSessions1{
+  background-image: url('https://i.ibb.co/tsNXb49/y-Road-9.png');
+  padding: 50px;
+  width: 1355px;
+  position: relative;
+ 
+
+}
+.cardSessions2{
+  background-image: url('https://i.ibb.co/dbrq4Ks/y-Road-8.png');
+  padding: 30px;
+  width: 1355px;
+  position: absolute;
+  https://i.ibb.co/bgL3GQ6/y-Road-7.png
+
+}
+
+.b {
+  position: relative;
+  left: 90%;
+  bottom: 55px;
+  
+
+}
+
+.pServico{
+color: #fff;
+
+
+}
+.imgLogo{
+  position: relative;
+}
+
+.lvcomplete{
+
+  color: #444; 
+
+}
+.content img {
+  position: relative;
+  left: 120px;
+}
+
+.content > p {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 8px;
+
+}
+ 
+.content form input{
+
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+
+}
+
+.content button {
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  height: 42px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #4C4B4B;
+  color: #fff;
+  cursor: pointer;
+
+}
+.footer {
+  background: rgb(32, 32, 29);
+  padding: 50px;
+  width: 1355px;
+  position: relative;
+  bottom: 0px;
+
+}
+.footer1 {
+  background: rgb(32, 32, 29);
+  padding: 40px;
+  width: 1355px;
+  position: relative;
+  bottom: -110px;
+
+}
+.subfooter1 {
+  background:#282826;
+  padding: 10px;
+  width: 1355px;
+  position: relative;
+  bottom: -80px;
+
+}
+
+.subfooter {
+  background:#282826;
+  padding: 10px;
+  width: 1355px;
+  position: relative;
+  bottom: 0px;
+
+}
+
+.content button:hover{
+  background: rgb(95, 94, 94)
+}
+
+
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgba(109,109,109);
+  --mainLightGrey: rgba(172,172,172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+}
+ 
